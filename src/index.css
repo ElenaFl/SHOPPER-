@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Open-Sans, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  padding-left: 6.6%;
+  padding-right: 6.6%;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+a, .btn {
+  cursor: pointer;
+}
+
+a.active {
+  color: #A18A68;
+}
+
+
+
+
